@@ -1,5 +1,5 @@
 // Port for the Express web server
-var PORT = 4000;
+var PORT = process.env.PORT || 4000;
 
 
 
